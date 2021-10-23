@@ -1,0 +1,7 @@
+/node_modules/
+package-lock.json
+global.css.pretty
+/public/build/
+.DS_Store
+ctx/*.js
+ctx/*.txt
