@@ -921,6 +921,16 @@
         "description": "The 2008 Mumbai attacks (also referred to as 26/11) were a series of terrorist attacks that took place in November 2008, when 10 members of Lashkar-e-Taiba, an Islamist terrorist organisation from Pakistan, carried out 12 coordinated shooting and bombing attacks lasting four days across Mumbai.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/59/Bombaymapconfimed_attacks.png/250px-Bombaymapconfimed_attacks.png"
     },
+    "2012 AD": {
+        "name": "2012 Indian Ocean Earthquakes",
+        "description": "This is a list of earthquakes in 2012. Only earthquakes of magnitude 6 or above are included, unless they result in damage or casualties, or are notable for some other reason. All dates are listed according to UTC time. Two huge 8 magnitude earthquakes (8.6 and 8.2) struck Indonesia in April, but caused little damage, and no tsunami. The deadliest quake occurred in Iran, while other destructive tremors were observed in Philippines, China, or Afghanistan.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/World_location_map_%28equirectangular_180%29.svg/300px-World_location_map_%28equirectangular_180%29.svg.png"
+    },
+    "2015 AD": {
+        "name": "2015 Nepal Earthquake",
+        "description": "The April 2015 Nepal earthquake (also known as the Gorkha earthquake) killed nearly 9,000 people and injured nearly 22,000. It occurred at 11:56 Nepal Standard Time on 25 April 2015, with a magnitude of 7.8Mw or 8.1Ms and a maximum Mercalli Intensity of VIII (Severe). Its epicenter was east of Gorkha District at Barpak, Gorkha, and its hypocenter was at a depth of approximately 8.2 km (5.1 mi). It was the worst natural disaster to strike Nepal since the 1934 Nepal–Bihar earthquake.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Nepal_rel_location_map.svg/250px-Nepal_rel_location_map.svg.png"
+    },
     "2019 AD": {
         "name": "COVID-19 Pandemic",
         "description": "The outbreak of Novel coronavirus disease (COVID-19) was initially noticed in a seafood market in Wuhan city in Hubei Province of China in mid- December, 2019, has now spread to 215 countries/territories/areas worldwide.",
