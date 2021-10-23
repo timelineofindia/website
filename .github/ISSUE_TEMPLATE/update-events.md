@@ -7,19 +7,15 @@ assignees: ''
 
 ---
 
-**Event Name:** <!--  The name of the event --!>
+**Event Name:** <!--  The name of the event -->
 
-<!--
+<!-- To add an event, -->
+**Thumbnail:** <!-- Optional (IMAGE URL) -->
+**Description:** 
+**Year**: 
 
-To add an event,
-**Thumbnail:** Optional (IMAGE URL)
-**Description:** Required
-**Year**: Required
+<!-- To update an event, -->
+**Things to update:**
 
-To update an event,
-**Things to update:** Required
-
-To remove an event provide a valid reason,
-**Reason to remove the event:** Reason
-
---!>
+<!-- To remove an event provide a valid reason, -->
+**Reason to remove the event:**
