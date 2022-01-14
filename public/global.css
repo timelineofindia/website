@@ -40,7 +40,7 @@ body {
 	width: auto;
 	padding: 80px;
 	color: white;
-	font-family: Alata;
+	font-family: "Titillium Web";
 }
 
 .timeline {
@@ -49,7 +49,7 @@ body {
 }
 
 .intro h1 {
-	font-family: consolas;
+	font-family: "consolas";
 	font-size: 60px;
 	color: var(--cyan);
 	margin-bottom: 5px;
@@ -94,7 +94,7 @@ a {
 
 .block h1 {
 	color: var(--cyan);
-	font-family: consolas;
+	font-family: "consolas";
 	margin: 0;
 }
 
@@ -138,7 +138,7 @@ a {
 
 .evtblock h3 {
 	color: white;
-	font-family: consolas;
+	font-family: "consolas";
 	margin-top: 6px;
 	margin-bottom: 0;
 	cursor: pointer;
@@ -154,7 +154,8 @@ a {
 }
 
 .exinner {
-	font-family: Alata;
+	font-family: "Titillium Web";
+	line-height: 1.3;
 	color: white;
 }
 
