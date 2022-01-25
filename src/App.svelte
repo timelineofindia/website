@@ -1,7 +1,8 @@
 <script>
-	import Event from "./Event.svelte";
+	import Event from "./components/Event.svelte";
 	import ctx from "./ctx";
-	import viewport from "./useViewport";
+	import viewport from "./scripts/useViewport";
+	import './styles/global.css';
 </script>
 
 <div class="intro">
