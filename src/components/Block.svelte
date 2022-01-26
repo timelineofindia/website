@@ -1,13 +1,14 @@
 <script>
     import Event from "./Event.svelte";
 	import viewport from "../scripts/useViewport";
+	import { getIndex } from "../scripts/blockIndex";
 
 	export let entry;
 </script>
 
 <div 
 	class="block-wrapper" 
-	style="padding-top: {Math.floor(entry[1].margin * 1.25)}px"
+	style="padding-top: {getIndex(entry[0])}px"
 >
 	<div 
 		class="block"
@@ -59,14 +60,14 @@
         top: 20px;
         z-index: 100;
         border-radius: 100%;
-        background: var(--blue);
+        background: var(--cyan);
         height: 16px;
         width: 16px;
-        transition: box-shadow 0.2s ease-in-out;
+        transition: box-shadow 0.1s ease-in-out;
     }
 
     .block:hover::before {
-        box-shadow: 0 0 0 6px rgba(29, 161, 242, .6);
+        box-shadow: 0 0 0 6px rgba(100, 255, 218, .6);
     }
 
     :global(.expand h3) {

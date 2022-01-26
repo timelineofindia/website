@@ -2,6 +2,9 @@
 	import Block from './components/Block.svelte';
 	import ctx from "./ctx";
 	import './styles/global.css';
+
+	// The minimum possible index...
+	window.previousIndex = -7000;
 </script>
 
 <div class="intro">
@@ -18,9 +21,13 @@
 </div>
 
 <div class="timeline">
-	{#each Object.entries(ctx) as entry}
+	{#each Object.entries(ctx) as entry, i}
 		<Block {entry}/>
 	{/each}
+</div>
+
+<div class="footer">
+	TimelineOfIndia © {new Date().getFullYear()}
 </div>
 
 <style>
@@ -53,6 +60,16 @@
 	.timeline {
 		width: auto;
 		padding: 80px;
+	}
+
+	.footer {
+		color: white;
+		font-family: "consolas";
+		text-align: center;
+		font-size: 20px;
+		font-weight: bold;
+		margin-top: -20px;
+		margin-bottom: 10px;
 	}
 
 	@media (max-width: 800px) {
