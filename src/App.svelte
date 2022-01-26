@@ -1,44 +1,65 @@
 <script>
-	import Event from "./components/Event.svelte";
+	import Block from './components/Block.svelte';
 	import ctx from "./ctx";
-	import viewport from "./scripts/useViewport";
 	import './styles/global.css';
 </script>
 
 <div class="intro">
-	<h1>Timeline of India</h1>
+	<h1 class="color-cyan">Timeline of India</h1>
 
-	<p>
+	<p style="font-size: 20px; line-height: 1.1;">
 		Timeline of India is a website which shows the events from the very first of the Indus civilization of the Indian subcontinent to the current state of the Indian subcontinent. This timeline also includes events which influenced the Indian subcontinent.
 	</p>
 
 	<div class="note">
-		<h3>Note: </h3>
+		<h3 class="color-cyan">Note: </h3>
 		The source of the events are took from Wikipedia, if any mistakes or addition of events, kindly create an issue in the <a href="https://github.com/timelineofindia/website">github repo</a>.
 	</div>
 </div>
 
 <div class="timeline">
 	{#each Object.entries(ctx) as entry}
-		<div class="block" style={`padding-top: ${Math.floor(entry[1].margin * 1.25)}px`}>
-			<div 
-				class="blinner"
-				use:viewport
-				on:enterViewport={e => e.target.classList.add("display-block")}
-				on:exitViewport={e => e.target.classList.remove("display-block")}
-			>
-				<h1>{entry[0]}</h1>
-
-				{#if entry[1].name}
-					<Event event={entry[1]}/>
-				{:else}
-					<div class="evtrow">
-						{#each entry[1].value as event}
-							<Event event={event}/>
-						{/each}
-					</div>
-				{/if}
-			</div>
-		</div>
+		<Block {entry}/>
 	{/each}
 </div>
+
+<style>
+	.intro {
+		width: auto;
+		padding: 80px;
+		color: white;
+		font-family: "Titillium Web";
+	}
+
+	h1 {
+		font-size: 60px;
+		margin-bottom: 5px;
+	}
+
+	.note {
+		background-color: var(--project-color);
+		border-radius: 5px;
+		width: auto;
+		padding: 18px;
+		margin-top: 15px;
+	}
+
+	h3 {
+		margin: 0;
+		font-weight: bold;
+		display: inline-block;
+	}
+
+	.timeline {
+		width: auto;
+		padding: 80px;
+	}
+
+	@media (max-width: 800px) {
+		.intro, .timeline {
+			padding: 30px;
+		}
+
+		h1 { font-size: 30px; }
+	}
+</style>
