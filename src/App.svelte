@@ -1,7 +1,13 @@
 <script>
 	import Block from './components/Block.svelte';
+	import viewport from './scripts/useViewport';
 	import ctx from "./ctx";
 	import './styles/global.css';
+
+	const entries = Object.entries(ctx);
+	const maxSliceIndex = Math.ceil(entries.length / 10);
+
+	let sliceIndex = 1;
 
 	// The minimum possible index...
 	window.previousIndex = -7000;
@@ -21,9 +27,14 @@
 </div>
 
 <div class="timeline">
-	{#each Object.entries(ctx) as entry, i}
+	{#each entries.slice(0, sliceIndex * 10) as entry}
 		<Block {entry}/>
 	{/each}
+
+	<div
+		use:viewport
+		on:enterViewport={() => sliceIndex += (sliceIndex != maxSliceIndex)}
+	/>
 </div>
 
 <div class="footer">
