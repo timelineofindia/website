@@ -34,8 +34,9 @@
     h3 {
         color: white;
 	    margin-top: 6px;
-	    margin-bottom: 0;
+	    margin-bottom: 10px;
 	    cursor: pointer;
+		line-height: 1.3;
     }
 
     h3:hover {
@@ -53,6 +54,7 @@
 
 	p {
 		padding-left: 10px;
+		margin-bottom: 10px;
 	}
 
 	@media (min-width: 900px) {
@@ -66,14 +68,10 @@
 			display: flex;
 			flex-wrap: nowrap;
 		}
-
-		.flex {
-			margin-top: 10px;
-		}
 	}
 
 	@media (max-width: 900px) {
 		.flex img { width: 100%; }
-		.flex p { margin-top: 10px; }
+		p { margin-top: 10px; }
 	}
 </style>
