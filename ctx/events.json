@@ -14,11 +14,18 @@
         "description": "Mesopotamia (Ancient Greek: Μεσοποταμία Mesopotamíā; Arabic: بِلَاد ٱلرَّافِدَيْن‎ Bilād ar-Rāfidayn; Classical Syriac: ܐܪܡ ܢܗܪ̈ܝܢ‎, Ārām-Nahrīn or ܒܝܬ ܢܗܪ̈ܝܢ, Bēṯ Nahrīn)[1] is a historical region of Western Asia situated within the Tigris–Euphrates river system, in the northern part of the Fertile Crescent. It occupies the area of present-day Iraq, and parts of Iran, Kuwait, Syria, and Turkey. It is considered to be the oldest civilization since Indus civilization's mature period began from 2600 BC.",
         "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ed/N-Mesopotamia_and_Syria_english.svg/288px-N-Mesopotamia_and_Syria_english.svg.png"
     },
-    "3000 BC": {
-        "name": "Origination of Sanskrit and Tamil",
-        "description": "It is still unclear when did Sanskrit (mother of all languages and the oldest language) and Tamil (oldest dravidian language and the oldest living language) originated. There are many theories but oldest sources say they both originated 5000 years ago (3000 BC). ",
-        "image": "https://www.esamskriti.com/essays/docfile/14_2713.jpg"
-    },
+    "3000 BC": [
+        {
+            "name": "Origination of Sanskrit",
+            "description": "Sanskrit, one of the oldest languages of the world is estimated to be originated somewhere near 3000 BC. It can be way earlier than estimated.\nSanskrit is a classical language belonging to the Indo-Aryan branch of the Indo-European languages. It arose in South Asia after its predecessor languages had diffused there from the northwest in the late Bronze Age.",
+            "image": "https://www.worldhistory.org/img/r/p/500x600/1424.jpg?v=1629975602"
+        },
+        {
+            "name": "Origination of Tamil",
+            "description": "Tamil, one of the oldest living languages of the world is also estimated to be originated somewhere near 3000 BC. Tamil is a Dravidian language natively spoken by the Tamil people of South Asia.\nTamil is an official language of the Indian state of Tamil Nadu, the sovereign nations of Sri Lanka and Singapore, and the Indian territory of Puducherry.",
+            "image": "https://mc.webpcache.epapr.in/pro.php?size=large&in=https://mcmscache.epapr.in/post_images/website_326/post_24257714/full.jpg"
+        }
+    ],
     "2300 BC": {
         "name": "Origination of Hinduism",
         "description": "Most scholars believe Hinduism started somewhere between 2300 B.C. and 1500 B.C. in the Indus Valley, near modern-day Pakistan. But many Hindus argue that their faith is timeless and has always existed.",
@@ -243,11 +250,18 @@
         "description": "The first written materials in the language date from 575 ce. The Telugu script is derived from that of the 6th-century Calukya dynasty and is related to that of the Kannada language. Telugu literature begins in the 11th century with a version of the Hindu epic Mahabharata by the writer Nannaya Bhatta.",
         "image": "https://cdn.britannica.com/s:225x225/64/67964-050-A70268B3/Distribution-languages-Dravidian.jpg"
     },
-    "600 AD": {
-        "name": "The Chalukya Empire",
-        "description": "The Chalukya Empire ruled large parts of southern and central India between the 6th and the 12th centuries. During this period, they ruled as three related yet individual dynasties. The earliest dynasty, known as the \"Badami Chalukyas\", ruled from Vatapi (modern Badami) from the middle of the 6th century. The Badami Chalukyas began to assert their independence at the decline of the Kadamba kingdom of Banavasi and rapidly rose to prominence during the reign of Pulakeshin II. The rule of the Chalukyas marks an important milestone in the history of South India and a golden age in the history of Karnataka.",
-        "image": null
-    },
+    "600 AD": [
+        {
+            "name": "Origination of Goykanadi Script",
+            "description": "Goykanadi was used in Goa since the times of the Kadambas, although it lost its popularity after the 17th century. Goykanadi is very different from the Old Kannada script, with strikingly similar features. Unlike Old Kannada, Kandevi/Goykanadi letters were usually written with a distinctive horizontal bar, like the Nagari scripts. This script may have been evolved out of the Kadamba script, which was extensively used in Goa and Konkan.",
+            "image": "https://upload.wikimedia.org/wikipedia/en/thumb/b/ba/Goykanadi_sample.jpg/200px-Goykanadi_sample.jpg"
+        },
+        {
+            "name": "The Chalukya Empire",
+            "description": "The Chalukya Empire ruled large parts of southern and central India between the 6th and the 12th centuries. During this period, they ruled as three related yet individual dynasties. The earliest dynasty, known as the \"Badami Chalukyas\", ruled from Vatapi (modern Badami) from the middle of the 6th century. The Badami Chalukyas began to assert their independence at the decline of the Kadamba kingdom of Banavasi and rapidly rose to prominence during the reign of Pulakeshin II. The rule of the Chalukyas marks an important milestone in the history of South India and a golden age in the history of Karnataka.",
+            "image": null
+        }
+    ],
     "606 AD": {
         "name": "The Empire of Harsha",
         "description": "Harsha ruled northern India from 606 to 647 CE. He was the son of Prabhakarvardhana and the younger brother of Rajyavardhana, who were members of the Vardhana dynasty and ruled Thanesar, in present-day Haryana.",

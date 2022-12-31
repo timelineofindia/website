@@ -21,8 +21,9 @@
 	</p>
 
 	<div class="note">
-		<h3 class="color-cyan">Note: </h3>
-		The source of the events are took from Wikipedia, if any mistakes or addition of events, kindly create an issue in the <a href="https://github.com/timelineofindia/website">github repo</a>.
+		<h3 class="color-cyan">Note: </h3><br/>
+		The source of the events are took from Wikipedia, if any mistakes or addition of events, kindly create an issue in the <a href="https://github.com/timelineofindia/website">github repo</a>.<br/>
+		The site uses estimations for events related to origination of languages as origination of a language is a gradual process.
 	</div>
 </div>
 
